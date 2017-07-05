@@ -16,7 +16,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class maru : MonoBehaviour {
+public class MyMonoBehaviour : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -30,6 +30,14 @@ public class maru : MonoBehaviour {
     
 }
 ```
+
+@[1]
+@[3]
+@[5-7]
+
+---?code=path/to/source.file
+
+
 
 ---
 
