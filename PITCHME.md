@@ -2,9 +2,7 @@
 
 Unityで覚えるc#
 
----
-
-![naichilab](gitpitch/img/naichi-logo.png)
+---?image=gitpitch/img/naichi-logo.png&size=contain
 
 ---
 
