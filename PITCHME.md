@@ -31,9 +31,10 @@ public class MyMonoBehaviour : MonoBehaviour {
 }
 ```
 
-@[1]
-@[3]
-@[5-7]
+@[1]（ほげ aaa jjiugfy gugiuh)
+@[3](dydfigu
+ygiughoi)
+@[5-7](aaaaaaaaa)
 
 ---?code=path/to/source.file
 
