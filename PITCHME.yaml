@@ -1,4 +1,4 @@
 slide-number: true
 footnote : "© 2017 naichilab."
 gatoken : UA-76130120-3
-theme-override : pitchme/css/style.css
+theme-override : gitpitch/css/style.css
