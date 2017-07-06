@@ -1,5 +1,4 @@
-# learning-csharp-with-unity
-Unityで覚えるC#
+# Unityで覚えるC#
 
 ---
 
