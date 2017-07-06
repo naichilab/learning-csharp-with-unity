@@ -6,15 +6,15 @@
 
 # こんにちは
 
-+++?image=gitpitch/img/naichi.jpg&size=contain
-
-+++
+---
 
 ## ないち
 
 @naichilab
 
-+++
+---?image=gitpitch/img/naichi.jpg&size=contain
+
+---
 
 ## 何してる人？
 
@@ -27,37 +27,37 @@
 
 # 今日話すこと
 
-+++
+---
 
 ## <span>C#の"超"基礎</span>
 
 を Unity 上で。
 
-+++
+---
 
-## <span>C#</span>
+## <span>C#</span>って？
 
 プログラミング言語
 
-+++
+---
 
-## Unity
+## Unityって？
 
 ゲームエンジン
 
-+++
+---
 
 ## <span>C#</span>とUnityは別物！
 
 それぞれにお作法がある。
 
-覚えること多くて大変ですね。
+覚えること多くて大変ですね。。。
 
 ---
 
 # 対象
 
-+++
+---
 
 ## 超初心者
 
@@ -75,19 +75,19 @@ Unity興味ある
 
 ---
 
-# <span>Unityの領域</span>
+# <span>Unityのこと</span>
 
-+++
+---
 
-## エディタ
+## Unityエディタ
 
-+++?image=gitpitch/img/unityeditor.png&size=contain
+---?image=gitpitch/img/unityeditor.png&size=contain
 
 これ。
 
-+++
+---
 
-## Unityは
+## Unityでは
 
 * 世界(Scene)
 * モノ(GameObject)
@@ -95,18 +95,37 @@ Unity興味ある
 
 これらを組み合わせてゲームを作る。
 
-+++?image=gitpitch/img/tanks.png&size=contain
+---
 
-このゲームだと。
+* 世界(Scene)を作り
+* モノ(GameObject)を置いて
+* モノに挙動(Component)を与える
 
-+++
+---?image=gitpitch/img/tanks.png&size=contain
 
-* 世界(Scene)
-  * 重力や時間を設定して
-* モノ(GameObject)
-  * 建物や戦車などを置いて
-* 挙動(Component)
-  * "戦車に弾を打つ" などの挙動を与える
+* 光やカメラを置いて
+* 地面や建物、戦車を置いて
+* "弾を打つ"などの挙動を与える
+
+---
+
+#＃ 挙動(Component)
+
+* 画像を表示する
+* 文字を表示する
+* 物理演算をする
+* キー入力を受けて動かす
+
+とか。
+プログラミングしなくても結構用意されてる。
+
+---
+
+## でも
+
+細かいところは自分で作らなきゃいけない。
+
+-> プログラミング<span>(C#)</span>の出番
 
 ---
 
