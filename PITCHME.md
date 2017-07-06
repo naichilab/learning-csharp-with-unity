@@ -1,6 +1,5 @@
-# "Unityで覚えるC#"
-## "Unityで覚えるC#"
-### "Unityで覚えるC#"
+## Unityで覚えるC#
+
 ---
 #### "Unityで覚えるC#"
 ##### "Unityで覚えるC#"
