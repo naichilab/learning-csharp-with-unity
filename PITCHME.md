@@ -31,7 +31,8 @@ public class MyMonoBehaviour : MonoBehaviour {
 }
 ```
 あ〜〜〜
-@[1]（ほげ aaa jjiugfy gugiuh)
+
+@[1](ほげ aaa jjiugfy gugiuh)
 @[3](dydfiguygiughoi)
 @[5-7](aaaaaaaaa)
 
