@@ -1,4 +1,6 @@
-## Unityで覚えるC#
+## learning csharp with unity
+
+Unityで覚えるc#
 
 ---
 #### "Unityで覚えるC#"
