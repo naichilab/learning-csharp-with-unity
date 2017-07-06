@@ -20,7 +20,8 @@
 
 * 職業：プログラマー
 * 趣味：Unity/C#
-* っぽい資格：NW/DB/SCとか
+* なんかそれっぽい資格
+  * NW/DB/SCとか
 
 ---
 
@@ -70,18 +71,50 @@ Unity興味ある
 
 ---
 
-# 地図
+# まずは全体像から
+
+---
+
+# <span>Unityの領域</span>
 
 +++
 
-## <span>C#の範囲</span>
+## エディタ
+
++++?image=gitpitch/img/unityeditor.png&size=contain
+
+これ。
 
 +++
 
-型/演算子/変数/関数/クラス/インスタンス/関数/......
+## Unityは
 
-## <span>Unityの範囲</span>
+* 世界(Scene)
+* モノ(GameObject)
+* 挙動(Component)
 
+これらを組み合わせてゲームを作る。
+
++++?image=gitpitch/img/tanks.png&size=contain
+
+このゲームだと。
+
++++
+
+* 世界(Scene)
+  * 重力や時間を設定して
+* モノ(GameObject)
+  * 建物や戦車などを置いて
+* 挙動(Component)
+  * "戦車に弾を打つ" などの挙動を与える
+
+---
+
+## <span>C#の領域</span>
+
+* 型/演算子/変数/関数/クラス/インスタンス/関数/......
+
++++
 
 ---
 
