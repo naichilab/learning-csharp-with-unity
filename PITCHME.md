@@ -4,12 +4,10 @@ Unityで覚えるc#
 
 ---
 
-## naichilab
-![naichilab](gitpitch/img/naichi.jpg)
-ないち
+![naichilab](gitpitch/img/naichi-logo.png)
 
 ---
-aaa
+
 ---
 
 Hello, World!!
