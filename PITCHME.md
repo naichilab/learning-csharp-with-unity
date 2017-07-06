@@ -2,11 +2,11 @@
 
 2017-07-15
 
+---
+
 # こんにちは
 
-+++
-
----?image=gitpitch/img/naichi.jpg&size=contain
++++?image=gitpitch/img/naichi.jpg&size=contain
 
 +++
 
@@ -21,6 +21,14 @@
 * プログラマー
 * Unity / C#
 * NW / DB / SC
+
+---
+
+# 今日話すこと
+
++++
+
+## <span>C#の"超"基礎</span>
 
 ---
 
