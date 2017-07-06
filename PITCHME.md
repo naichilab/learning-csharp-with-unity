@@ -77,11 +77,9 @@ Unity興味ある
 
 # <span>Unityのこと</span>
 
----
+---?image=gitpitch/img/unityeditor.png&size=contain
 
 ## Unityエディタ
-
----?image=gitpitch/img/unityeditor.png&size=contain
 
 これ。
 
@@ -101,7 +99,9 @@ Unity興味ある
 * モノ(GameObject)を置いて
 * モノに挙動(Component)を与える
 
----?image=gitpitch/img/tanks.png&size=contain
+---
+
+![tanks](gitpitch/img/tanks.png)
 
 * 光やカメラを置いて
 * 地面や建物、戦車を置いて
