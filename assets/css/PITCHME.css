@@ -69,7 +69,7 @@
        url(//fonts.gstatic.com/ea/roundedmplus1c/v1/RoundedMplus1c-Black.ttf) format('truetype');
 }
 
-body {
-  font-family: 'Rounded Mplus 1c';
+.reveal .slides {
+    text-align: left;
+    font-family: 'Rounded Mplus 1c';
 }
-
