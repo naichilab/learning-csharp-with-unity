@@ -70,6 +70,7 @@
 }
 
 .reveal .slides {
-    font-family: 'Rounded Mplus 1c' !important;
+  font-family: 'Rounded Mplus 1c' !important;
+  text-transform : none !important;
 }
 
