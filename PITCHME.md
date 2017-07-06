@@ -1,6 +1,4 @@
-## learning csharp with unity
-
-Unityで覚えるc#
+# <span>Unityで覚えるC#</span>
 
 ---?image=gitpitch/img/naichi-logo.png&size=contain
 
@@ -22,7 +20,7 @@ Unity興味ある
 
 ---
 
-# C#
+# C<span>#</span>
 
 +++
 
