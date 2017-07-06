@@ -1,14 +1,34 @@
 # <span>Unityで覚えるC#</span>
 
----?image=gitpitch/img/naichi-logo.png&size=contain
+2017-07-15
 
----
-
-# 対象
+# こんにちは
 
 +++
 
-超初心者向け
+---?image=gitpitch/img/naichi.jpg&size=contain
+
++++
+
+## ないち
+
+@naichilab
+
++++
+
+## 何してる？
+
+* プログラマー
+* Unity / C#
+* NW / DB / SC
+
+---
+
+# 今日の対象
+
++++
+
+## 超初心者
 
 +++
 
