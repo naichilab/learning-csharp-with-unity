@@ -271,13 +271,13 @@ MonoDevelopというエディタが開く
 
 `振る舞い` の定義はできた。
 
-でも
+## でも
 
 `振る舞い` は `モノ` に付けないと動かない。
 
 +++
 
-## モノ(GameObject)の作成
+モノ(GameObject)の作成
 
 +++
 
@@ -305,8 +305,56 @@ Hierarchy -> Create -> Create Empty
 
 モノを選択すると、振る舞い一覧が表示される
 
-まだ空っぽ(Transform=座標情報だけ)
++++
 
+![](gitpitch/img/sample02-components.png)
+
+ここにさっき作った振る舞い(HelloWorld)を追加する
+
++++
+
+![](gitpitch/img/sample02-add-component.png)
+
+Hierarchy -> Add Component -> Hello World
+
++++
+
+![](gitpitch/img/sample02/sample02-helloworld-script.png)
+
+(振る舞いが)ついた！
+
++++
+
+![](gitpitch/img/sample02/sample02-play.png)
+
+やっと実行（再生ボタン）
+
++++
+
+![](gitpitch/img/sample02/sample02-playing.png)
+
+ボタンが青くなれば実行できている
+
++++
+
+![](gitpitch/img/sample02/sample02-log.png)
+
+超地味だけど出力されている
+
++++
+
+![](gitpitch/img/sample02/sample02-log-detail.png)
+
+クリックするとちょっと詳しく見れる
+
++++
+
+まとめ
+
++++?code=Assets/Sample_01_HelloWorld/HelloWorld.cs
+
+この１行が動いた！
+　
 ---
 
 
