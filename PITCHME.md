@@ -261,10 +261,9 @@ MonoDevelopというエディタが開く
 
 (さっきと別ファイル)
 
-+++?code=Assets/Sample_00/Sample.cs
++++?code=Assets/Sample_01_HelloWorld/HelloWorld.cs
 
-@[10] (`Debug.log\("Hello World!!"\);` と記入)
-
+@[10] (Start内に1行書き込む)
 
 ---
 
