@@ -252,7 +252,7 @@ MonoDevelopというエディタが開く
 
 (ハマりポイント)
 
-![](gitpitch/img/sample02-file.png)
+![](gitpitch/img/sample01/sample01-name-mismatch.png)
 
 Unityの決まりごと。
 
