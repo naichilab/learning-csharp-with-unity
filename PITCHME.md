@@ -238,7 +238,7 @@ MonoDevelopというエディタが開く
 @[1-3](まだ気にしなくていいです)
 @[5](Sample : クラス=振る舞い の名前)
 @[5](Unity上で作ると必ずMonoBehaviourと書かれる)
-@[7-10](Start : 実行時、初回に1回だけ呼ばれる)
+@[7-10](Start : 実行時、はじめに1回だけ呼ばれる)
 @[12-15](Update : 実行時、毎フレーム呼ばれる)
 
 +++
@@ -246,6 +246,15 @@ MonoDevelopというエディタが開く
 これで雛形は完成
 
 ここに処理を書き込んでいきます。
+
+
++++
+
+(ハマりポイント)
+
+![](gitpitch/img/sample02-file.png)
+
+Unityの決まりごと。
 
 ---
 
@@ -263,13 +272,17 @@ MonoDevelopというエディタが開く
 
 +++?code=Assets/Sample_01_HelloWorld/HelloWorld.cs
 
-@[10] (Start内に1行書き込む)
+Startの中に１行追加する
+
+@[10] (こんな感じ)
 
 +++
 
 ## プログラム完成！
 
 `振る舞い` の定義はできた。
+
++++
 
 ## でも
 
@@ -307,12 +320,6 @@ Hierarchy -> Create -> Create Empty
 
 +++
 
-![](gitpitch/img/sample02-components.png)
-
-ここにさっき作った振る舞い(HelloWorld)を追加する
-
-+++
-
 ![](gitpitch/img/sample02-add-component.png)
 
 Hierarchy -> Add Component -> Hello World
@@ -339,7 +346,7 @@ Hierarchy -> Add Component -> Hello World
 
 ![](gitpitch/img/sample02/sample02-log.png)
 
-超地味だけど出力されている
+動いた！！（超地味）
 
 +++
 
@@ -351,13 +358,22 @@ Hierarchy -> Add Component -> Hello World
 
 まとめ
 
-+++?code=Assets/Sample_01_HelloWorld/HelloWorld.cs
+1. C#スクリプト(振る舞い)を作る
+1. モノを作る
+1. モノに振る舞いを付ける
+1. 動かす！
 
-この１行が動いた！
-　
++++
+
+![](gitpitch/img/sample02/sample02-editor.png)
+
 ---
 
+ここまでしか書いてない。
 
+---
+---
+---
 
 ## コメント
 
