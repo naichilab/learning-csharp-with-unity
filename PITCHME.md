@@ -166,6 +166,14 @@ Unity興味ある
 
 あとでダウンロードしてください。
 
+👇
+
++++
+
+## ダウンロード
+
+[naichilab/learning-csharp-with-unity](https://github.com/naichilab/learning-csharp-with-unity)
+
 ---
 
 ## 今日の目標
@@ -209,6 +217,8 @@ Project -> Create -> C# Script
 ![](gitpitch/img/open-script-editer.png)
 
 > MonoDevelopというエディタが開きます。
+
++++?code=Assets/Sample_00/Sample.cs
 
 
 ---
