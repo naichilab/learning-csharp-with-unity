@@ -192,6 +192,8 @@ Unity興味ある
 
 ## 0. Unityの準備
 
+👇
+
 +++
 
 ![](gitpitch/img/unity-editor-layout.png)
@@ -202,13 +204,13 @@ Unity興味ある
 
 ## 1. <span>C#</span>スクリプトの作成方法
 
+👇
+
 +++
 
 ![](gitpitch/img/unity-create-script.png)
 
-Project -> Create -> C# Script
-
-`Sample` のように名前をつける。
+Project -> Create -> C# Script。適当に名前をつける。
 
 +++
 
@@ -228,18 +230,39 @@ Project -> Create -> C# Script
 
 
 ## コメント
+
+👇
+
 ---
 ## Debug.log
+
+👇
+
 ---
 ## 変数（と基本的な型）
+
+👇
+
 ---
 ## 四則演算
+
+👇
+
 ---
 ## 関数
+
+👇
+
 ---
 ## インスタンス
+
+👇
+
 ---
 ## クラス変数
+
+👇
+
 ---
 
 
