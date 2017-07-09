@@ -196,17 +196,10 @@ Unity興味ある
 
 ## 1. <span>C#</span>スクリプトの作成方法
 
+
 +++?image=gitpitch/img/unity-create-script.png$size=contain
 
-
-
-
-
-###
-
-## Unityでは、
-
-
+---
 
 
 
