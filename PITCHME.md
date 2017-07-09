@@ -1,6 +1,4 @@
-## learning-csharp-with-unity
-
-Unityで覚えるC#
+# Unityで覚える<span>C#</span>
 
 ---
 
@@ -8,13 +6,11 @@ Unityで覚えるC#
 
 ---
 
-## ないち
+![naichilab](gitpitch/img/naichi.jpg)
 
-## @naichilab
+ないち
 
-です。
-
----?image=gitpitch/img/naichi.jpg&size=contain
+@naichilab
 
 ---
 
