@@ -210,19 +210,29 @@ Unity興味ある
 
 ![](gitpitch/img/unity-create-script.png)
 
-Project -> Create -> C# Script。適当に名前をつける。
+Project -> Create -> C# Script
 
 +++
 
-## ダブルクリックで開く
+![](gitpitch/img/sample00-file.png)
 
-![](gitpitch/img/open-script-editer.png)
+できたファイルをダブルクリックで開く
 
-> MonoDevelopというエディタが開きます。
++++
 
-+++?code=Assets/Sample_00/Sample.cs
+![](gitpitch/img/sample00-mono.png)
 
+MonoDevelopというエディタが開く
 
++++?code=gitpitch/Assets/Sample_00/Sample.cs
+
+@[1-100](こんな感じのファイルが開きます。)
+@[1-3](まだ気にしなくていいです)
+@[1-3](他のファイルを読み込んで使うよーって宣言)
+@[5](クラスの名前)
+@[5](Unityから作ると必ずMonoBehaviourと書かれている)
+@[7-10](初回に1回呼ばれるところ=後述)
+@[12-15](毎フレーム呼び出されるところ=後述)
 ---
 
 
