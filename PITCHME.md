@@ -224,7 +224,7 @@ Project -> Create -> C# Script
 
 MonoDevelopというエディタが開く
 
-+++?code=gitpitch/Assets/Sample_00/Sample.cs
++++?code=Assets/Sample_00/Sample.cs
 
 @[1-100](こんな感じのファイルが開きます。)
 @[1-3](まだ気にしなくていいです)
