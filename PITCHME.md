@@ -103,7 +103,7 @@ Unity興味ある
 
 ---
 
-## 振る舞い(Component)
+## 振る舞い
 
 * 画像を表示する
 * 文字を表示する
@@ -164,9 +164,11 @@ Unity興味ある
 
 ---
 
-全てサンプルがあるので
+全てサンプルあります。
 
-興味が湧いたらあとでダウンロードしてください。
+興味が湧いたら
+
+あとでダウンロードしてください。
 
 ---
 
@@ -184,16 +186,21 @@ Unity興味ある
 
 ---
 
-## Unityの準備
+## 0. Unityの準備
 
----?image=gitpitch/img/unity-editor-layout.png&size=contain
++++?image=gitpitch/img/unity-editor-layout.png&size=contain
+
+レイアウトを初期化しておく
 
 ---
 
+## 1. <span>C#</span>スクリプトの作成方法
 
-## <span>C#</span>スクリプトの作成方法
++++?image=gitpitch/img/unity-create-script.png$size=contain
 
-+++
+
+
+
 
 ###
 
