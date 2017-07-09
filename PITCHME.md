@@ -265,6 +265,48 @@ MonoDevelopというエディタが開く
 
 @[10] (Start内に1行書き込む)
 
++++
+
+## プログラム完成！
+
+`振る舞い` の定義はできた。
+
+でも
+
+`振る舞い` は `モノ` に付けないと動かない。
+
++++
+
+## モノ(GameObject)の作成
+
++++
+
+![](gitpitch/img/sample02-create-empty.png)
+
+Hierarchy -> Create -> Create Empty
+
++++
+
+![](gitpitch/img/sample02-empty-object.png)
+
+`GameObject` という名前のモノが作られた。
+
++++
+
+![](gitpitch/img/sample02-rename.png)
+
+分かりにくいのでリネームしましょう。
+
+-> `HelloWorld`
+
++++
+
+![](gitpitch/img/sample02-components.png)
+
+モノを選択すると、振る舞い一覧が表示される
+
+まだ空っぽ(Transform=座標情報だけ)
+
 ---
 
 
