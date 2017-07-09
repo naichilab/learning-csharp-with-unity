@@ -184,13 +184,9 @@ Unity興味ある
 
 ## 0. Unityの準備
 
-+++?image=gitpitch/img/unity-editor-layout.png&size=contain
-
-レイアウトを初期化しておく
-
 +++
 
-![Logo](gitpitch/img/unity-editor-layout.png)
+![](gitpitch/img/unity-editor-layout.png)
 
 レイアウトを初期化しておく
 
@@ -198,7 +194,22 @@ Unity興味ある
 
 ## 1. <span>C#</span>スクリプトの作成方法
 
-+++?image=gitpitch/img/unity-create-script.png&size=contain
++++
+
+![](gitpitch/img/unity-create-script.png)
+
+Project -> Create -> C# Script
+
+`Sample` のように名前をつける。
+
++++
+
+## ダブルクリックで開く
+
+![](gitpitch/img/open-script-editer.png)
+
+> MonoDevelopというエディタが開きます。
+
 
 ---
 
