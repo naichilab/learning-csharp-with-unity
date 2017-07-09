@@ -1,6 +1,6 @@
-# <span>Unityで覚えるC#</span>
+## learning-csharp-with-unity
 
-2017-07-15
+Unityで覚えるC#
 
 ---
 
@@ -189,6 +189,12 @@ Unity興味ある
 ## 0. Unityの準備
 
 +++?image=gitpitch/img/unity-editor-layout.png&size=contain
+
+レイアウトを初期化しておく
+
++++
+
+![Logo](gitpitch/img/unity-editor-layout.png)
 
 レイアウトを初期化しておく
 
