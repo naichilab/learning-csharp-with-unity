@@ -392,7 +392,7 @@ Hierarchy -> Add Component -> Hello World
 
 +++?code=Assets/helloworld/HelloWorld.cs
 
-さっきのサンプル
+HelloWorldで使ったやつ
 
 +++
 
@@ -416,7 +416,7 @@ sample : comment
 
 👇
 
-+++?code=Assets/comments/CommentSample.cs
++++?code=Assets/comment/CommentSample.cs
 
 スラッシュ２つ並べるとコメントが書ける
 
@@ -428,7 +428,7 @@ sample : comment
 
 ---
 
-## 4. 変数
+## 変数
 
 sample : variables
 
