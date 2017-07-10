@@ -420,9 +420,11 @@ sample : comment
 
 スラッシュ２つ並べるとコメントが書ける
 
+@[9-10](ここは処理されないコメント行)
+
 +++
 
-コメントは自由に書ける。
+コメントは自由に書けます。
 
 複雑になりそうならコメントを残しましょう。
 
@@ -438,9 +440,9 @@ sample : variables
 
 いきなりサンプル
 
-@[9](textという文字列が入る変数=箱を用意)
-@[10](変数に文字列を入れる)
-@[11](変数の内容をLogに書き出す)
+@[9](textという箱<変数>を用意)
+@[10](箱<変数>に文字列を入れる)
+@[11](箱<変数>の内容をLogに書き出す)
 
 +++
 
@@ -450,12 +452,19 @@ sample : variables
 
 +++
 
+## 変数の型（箱の形）
 
-```
-string text;
-text = "This is Text.";
-Debug.Log (text);
-```
+| 型名 | 入れられる値 |
+| --- | ---- |
+| string | 文字列 |
+| int | 整数 |
+| float | 少数 |
+
+他にもいっぱい -> [組み込み型一覧](https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/keywords/built-in-types-table)
+
+
+
+
 
 
 
