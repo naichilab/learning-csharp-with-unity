@@ -264,13 +264,13 @@ MonoDevelopというエディタが開く
 
 +++
 
-![](gitpitch/img/sample02-file.png)
+![](gitpitch/img/sample02/sample02-file.png)
 
 `HelloWorld` スクリプトを作成
 
 (さっきと別ファイル)
 
-+++?code=Assets/Sample_01_HelloWorld/HelloWorld.cs
++++?code=Assets/Sample_02_HelloWorld/HelloWorld.cs
 
 Startの中に１行追加する
 
@@ -296,19 +296,19 @@ Startの中に１行追加する
 
 +++
 
-![](gitpitch/img/sample02-create-empty.png)
+![](gitpitch/img/sample02/sample02-create-empty.png)
 
 Hierarchy -> Create -> Create Empty
 
 +++
 
-![](gitpitch/img/sample02-empty-object.png)
+![](gitpitch/img/sample02/sample02-empty-object.png)
 
 `GameObject` という名前のモノが作られた。
 
 +++
 
-![](gitpitch/img/sample02-rename.png)
+![](gitpitch/img/sample02/sample02-rename.png)
 
 分かりにくいのでリネームしましょう。
 
@@ -316,13 +316,13 @@ Hierarchy -> Create -> Create Empty
 
 +++
 
-![](gitpitch/img/sample02-components.png)
+![](gitpitch/img/sample02/sample02-components.png)
 
 モノを選択すると、振る舞い一覧が表示される
 
 +++
 
-![](gitpitch/img/sample02-add-component.png)
+![](gitpitch/img/sample02/sample02-add-component.png)
 
 Hierarchy -> Add Component -> Hello World
 
