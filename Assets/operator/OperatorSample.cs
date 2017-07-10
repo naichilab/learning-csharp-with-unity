@@ -20,5 +20,11 @@ public class OperatorSample : MonoBehaviour
 		Debug.Log (n3);
 		Debug.Log (n4);
 		Debug.Log (n5);
+
+		string txt1 = "こんにちは";
+		string name = "naichi";
+		string txt2 = "さん！！";
+		Debug.Log (txt1 + name + txt2);
+		//出力 : こんにちはnaichiさん！！
 	}
 }
