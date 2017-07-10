@@ -151,17 +151,17 @@ Unity興味ある
 
 +++
 
-### どこから話そうか・・・
+### 機能多い・・・
 
-変数/型/キャスト/コメント/関数/四則演算/配列/条件分岐/繰り返し/例外処理/クラスとインスタンス/構造体/定数/静的クラス/列挙型/プロパティ/デリゲート/ラムダ式/LINQ/…
+変数/型/キャスト/コメント/関数/四則演算/配列/条件分岐/繰り返し/例外処理/クラスとインスタンス/構造体/定数/静的クラス/列挙型/プロパティ/デリゲート/ラムダ式/LINQ/非同期処理/Rx/…
 
-+++
+---
 
-## キリがないので
+キリがないので
 
-簡単なものから
+# <span>C#</span>基礎 変数編
 
-のんびり行きましょう
+で行きましょう。
 
 ---
 
@@ -185,6 +185,12 @@ Unity興味ある
 
 [naichilab/learning-csharp-with-unity](https://github.com/naichilab/learning-csharp-with-unity)
 
++++
+
+## Unityでの開き方
+
+ほげほげ
+
 ---
 
 ## 今日の目標
@@ -192,11 +198,15 @@ Unity興味ある
 * Unityの準備
 * <span>C#</span>スクリプトの作成方法
 * Hello World!!
-* 型と変数
+* Debug.Log
+* コメント
+* 変数の宣言と値の代入
+* 変数の型
+* リテラル
 * 四則演算
-* 関数
-* インスタンス
-* クラス変数
+* 型変換(キャスト)
+
+いけるとこまで！
 
 ---
 
@@ -727,78 +737,17 @@ string text = "あなたのスコアは" + score.ToString() + "でした。";
 //これでOK
 ```
 
-
-
-
-
-
-
 ---
-## 関数
 
-👇
+# 質問
 
----
-## インスタンス
-
-👇
-
----
-## クラス変数
-
-👇
+どうぞ
 
 ---
 
+# 次回 関数編
 
-
-
-
-## <span>C#のこと</span>
-
----
-
-
-* 型/演算子/変数/関数/クラス/インスタンス/関数/......
-
----
-
-# Hello, World!!
-
----
-
-こんにちは！!
-
----
-
-```
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class MyMonoBehaviour : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-
-	}
-
-	// Update is called once per frame
-	void Update () {
-
-	}
-
-}
-```
-あ〜〜〜〜
-
-@[1](ほげ aaa jjiugfy gugiuh)
-@[3](dydfiguygiughoi)
-@[5-7](aaaaaaaaa)
-
----?code=path/to/source.file
-
-
+やる？
 
 ---
 
