@@ -17,7 +17,7 @@ public class BuiltinTypes : MonoBehaviour
 		Debug.Log (num3);
 
 		//文字列型の変数に数値は入れられない。
-		string txt2 = 123;
+		//string txt2 = 123;
 		//int num4 = "aaa";
 	}
 }

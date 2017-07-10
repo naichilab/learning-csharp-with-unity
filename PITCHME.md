@@ -449,6 +449,26 @@ sample : variables
 
 ![](gitpitch/img/variables/variables-variables.png)
 
++++
+
+## 宣言と代入
+
+```
+string text;        //変数の宣言
+text = "あいうえお";  //値の代入
+
+//宣言と代入を１行で書くこともできる
+string text2 = "あいうえお";
+```
+
++++
+
+とりあえず
+
+箱が作れるのね。
+
+ぐらいの認識でOK。
+
 ---
 
 ## 変数の型（箱の形）
@@ -463,7 +483,7 @@ sample : built-in-types
 
 * 文字列用の箱には文字列しか入らない
 * 整数用の箱には整数しか入らない
-* 少数用の箱には整数か少数しか入らない
+* 小数用の箱には整数か小数しか入らない
 
 +++
 
@@ -473,7 +493,9 @@ sample : built-in-types
 | --- | ---- |
 | string | 文字列 |
 | int | 整数 |
-| float | 少数 |
+| long | 整数 |
+| float | 小数 |
+| double | 小数 |
 
 他にもいっぱい -> [組み込み型一覧](https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/keywords/built-in-types-table)
 
@@ -481,13 +503,16 @@ sample : built-in-types
 
 ```
 //文字列の変数
-string txt = "こんにちは";
+string txt;
+txt = "こんにちは";
 
 //整数の変数
-int num1 = 12;
+int num1;
+num1 = 12;
 
 //小数の変数
-float num2 = 1.23f;
+float num2;
+num2 = 1.23f;
 ```
 
 +++
@@ -496,13 +521,16 @@ float num2 = 1.23f;
 
 ```
 //これらはエラーする
-string txt2 = 123;
-int num4 = "aaa";
+string txt;
+txt = 123;//文字列型に数値は入らない
+
+int num;
+num = "aaa";//数値型に文字列は入らない
 ```
 
 +++
 
-※エラーの例
+※ログに表示されるエラーの例
 
 ```
 error CS0029: Cannot implicitly convert type `int' to `string'
@@ -512,16 +540,104 @@ intからstringに変換できません!!
 
 エラーよく読めば単純な場合が多い。英語だけど頑張って！
 
++++
 
+## C#は型がしっかりした言語
 
+型が間違ってると動かない！
+
+逆に言うとエラーで教えてくれる！
 
 ---
 
-## 組み込み型
+## リテラル
 
-C#は、整数や文字列など、よく使う
+sample : literal
 
-C#には、整数や文字列など、よく使うものにはプログラミングでよく使う `型` Unityには、
+👇
+
++++
+
+ダブルクォーテーション "" で囲むと string として扱われる。
+
+```
+string text = "あいうえお";
+```
+
++++
+
+ダブルクォーテーション "" で囲まず整数を書くと int として認識される。
+
+```
+int num = 10;
+```
+
++++
+
+小数を書くと double として認識される。
+
+```
+double num = 1.234;
+```
+
++++
+
+## ハマりやすいところ
+
+float と double と 小数リテラル
+
+```
+//1.234 は double として認識されるのでエラーする
+float num = 1.234;
+
+//fを付けると float として認識される
+//これはOK
+float num2 = 1.234f;
+```
+
++++
+
+ややこしいなぁ〜って？
+
+すぐ慣れるのでがんばって。
+
+---
+
+## 四則演算
+
+sample : operator
+
++++
+
+
+
+
+
+
+## 型変換（キャスト）
+
+sample : cast
+
+👇
+
++++
+
+文字列に数字を埋め込みたい！
+
+```
+int score = 12;
+string text = "あなたのスコアは" + score + "でした。";
+//残念ながら☝️はエラー
+```
+
+`+` は文字列同士を結合する。
+
+
+```
+"あなたのスコアは 10 点でした。
+```
+
+数字を文字列に入れたい！
 
 
 
@@ -530,6 +646,21 @@ C#には、整数や文字列など、よく使うものにはプログラミン
 ## 四則演算
 
 👇
+
++++
+
+```
+int a = 10;
+int b = 3;
+
+int n1 = a + b;	//足し算 = 13
+int n2 = a - b;	//引き算 = 7  
+int n3 = a * b;	//掛け算 = 30
+int n4 = a / b;	//割り算 = 3
+int n5 = a % b;	//割り算の余り = 1
+```
+
+
 
 ---
 ## 関数
