@@ -181,9 +181,7 @@ Unity興味ある
 * Unityの準備
 * <span>C#</span>スクリプトの作成方法
 * Hello World!!
-* コメント
-* Debug.log
-* 変数（と基本的な型）
+* 型と変数
 * 四則演算
 * 関数
 * インスタンス
@@ -219,21 +217,21 @@ Project -> Create -> C# Script
 
 +++
 
-![](gitpitch/img/sample00-file.png)
+![](gitpitch/img/sample01/sample01-file.png)
 
 できたファイルをダブルクリックで開く
 
 +++
 
-![](gitpitch/img/sample00-mono.png)
+![](gitpitch/img/sample01/sample01-mono.png)
 
 MonoDevelopというエディタが開く
 
-+++?code=Assets/Sample_00/Sample.cs
++++?code=Assets/Sample_01/Sample.cs
 
 簡単に説明
 
-@[1-100](こんな感じのファイルが開きます)
+@[1-101](こんな感じのファイルが開きます)
 @[1-3](他のファイルを読み込んで使うよーって宣言)
 @[1-3](まだ気にしなくていいです)
 @[5](Sample : クラス=振る舞い の名前)
@@ -373,25 +371,14 @@ Hierarchy -> Add Component -> Hello World
 
 ---
 
-ここまでしか書いてない。
-
----
----
----
-
-## コメント
+## 3. 型と変数
 
 👇
 
----
-## Debug.log
++++
 
-👇
 
----
-## 変数（と基本的な型）
 
-👇
 
 ---
 ## 四則演算
