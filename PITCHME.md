@@ -189,7 +189,7 @@ Unity興味ある
 
 ---
 
-## 0. Unityの準備
+## Unityの準備
 
 👇
 
@@ -205,7 +205,9 @@ Unity興味ある
 
 ---
 
-## 1. <span>C#</span>スクリプトの作成方法
+## <span>C#</span>スクリプトの作成方法
+
+create-script
 
 👇
 
@@ -217,17 +219,17 @@ Project -> Create -> C# Script
 
 +++
 
-![](gitpitch/img/sample01/sample01-file.png)
+![](gitpitch/img/create-script/create-script-file.png)
 
 できたファイルをダブルクリックで開く
 
 +++
 
-![](gitpitch/img/sample01/sample01-mono.png)
+![](gitpitch/img/create-script/create-script-mono.png)
 
 MonoDevelopというエディタが開く
 
-+++?code=Assets/Sample_01/Sample.cs
++++?code=Assets/create-script/Sample.cs
 
 簡単に説明
 
@@ -250,13 +252,13 @@ MonoDevelopというエディタが開く
 
 (ハマりポイント)
 
-![](gitpitch/img/sample01/sample01-name-mismatch.png)
+![](gitpitch/img/create-script/create-script-name-mismatch.png)
 
 これはUnityの決まりごと。
 
 ---
 
-## 2. Hello World!!
+## Hello World!!
 
 お決まりの練習。
 
@@ -264,13 +266,13 @@ MonoDevelopというエディタが開く
 
 +++
 
-![](gitpitch/img/sample02/sample02-file.png)
+![](gitpitch/img/helloworld/helloworld-file.png)
 
 `HelloWorld` スクリプトを作成
 
 (さっきと別ファイル)
 
-+++?code=Assets/Sample_02_HelloWorld/HelloWorld.cs
++++?code=Assets/helloworld/HelloWorld.cs
 
 Startの中に１行追加する
 
@@ -296,19 +298,19 @@ Startの中に１行追加する
 
 +++
 
-![](gitpitch/img/sample02/sample02-create-empty.png)
+![](gitpitch/img/helloworld/helloworld-create-empty.png)
 
 Hierarchy -> Create -> Create Empty
 
 +++
 
-![](gitpitch/img/sample02/sample02-empty-object.png)
+![](gitpitch/img/helloworld/helloworld-empty-object.png)
 
 `GameObject` という名前のモノが作られた。
 
 +++
 
-![](gitpitch/img/sample02/sample02-rename.png)
+![](gitpitch/img/helloworld/helloworld-rename.png)
 
 分かりにくいのでリネームしましょう。
 
@@ -316,43 +318,43 @@ Hierarchy -> Create -> Create Empty
 
 +++
 
-![](gitpitch/img/sample02/sample02-components.png)
+![](gitpitch/img/helloworld/helloworld-components.png)
 
 モノを選択すると、振る舞い一覧が表示される
 
 +++
 
-![](gitpitch/img/sample02/sample02-add-component.png)
+![](gitpitch/img/helloworld/helloworld-add-component.png)
 
 Hierarchy -> Add Component -> Hello World
 
 +++
 
-![](gitpitch/img/sample02/sample02-helloworld-script.png)
+![](gitpitch/img/helloworld/helloworld-helloworld-script.png)
 
 (振る舞いが)ついた！
 
 +++
 
-![](gitpitch/img/sample02/sample02-play.png)
+![](gitpitch/img/helloworld/helloworld-play.png)
 
 やっと実行（再生ボタン）
 
 +++
 
-![](gitpitch/img/sample02/sample02-playing.png)
+![](gitpitch/img/helloworld/helloworld-playing.png)
 
 ボタンが青くなれば実行できている
 
 +++
 
-![](gitpitch/img/sample02/sample02-log.png)
+![](gitpitch/img/helloworld/helloworld-log.png)
 
 動いた！！（超地味）
 
 +++
 
-![](gitpitch/img/sample02/sample02-log-detail.png)
+![](gitpitch/img/helloworld/helloworld-log-detail.png)
 
 クリックするとちょっと詳しく見れる
 
@@ -367,13 +369,13 @@ Hierarchy -> Add Component -> Hello World
 
 +++
 
-![](gitpitch/img/sample02/sample02-editor.png)
+![](gitpitch/img/helloworld/helloworld-editor.png)
 
 ---
 
 ## 3. Debug.Log
 
-+++?code=Assets/Sample_02_HelloWorld/HelloWorld.cs
++++?code=Assets/helloworld/HelloWorld.cs
 
 さっきのサンプル
 
