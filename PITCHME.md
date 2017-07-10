@@ -273,6 +273,8 @@ MonoDevelopというエディタが開く
 
 お決まりの練習。
 
+sample : `helloworld`
+
 👇
 
 +++
@@ -384,7 +386,9 @@ Hierarchy -> Add Component -> Hello World
 
 ---
 
-## 3. Debug.Log
+## Debug.Log
+
+
 
 +++?code=Assets/helloworld/HelloWorld.cs
 
