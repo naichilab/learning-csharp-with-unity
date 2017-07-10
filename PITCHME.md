@@ -218,7 +218,7 @@ Unity興味ある
 
 ## <span>C#</span>スクリプトの作成方法
 
-create-script
+sample : create-script
 
 👇
 
@@ -273,7 +273,7 @@ MonoDevelopというエディタが開く
 
 お決まりの練習。
 
-sample : `helloworld`
+sample : helloworld
 
 👇
 
@@ -388,7 +388,7 @@ Hierarchy -> Add Component -> Hello World
 
 ## Debug.Log
 
-
+👇
 
 +++?code=Assets/helloworld/HelloWorld.cs
 
@@ -396,23 +396,27 @@ Hierarchy -> Add Component -> Hello World
 
 +++
 
-`Debug.Log("こんにちは〜〜");`
+`Debug.Log("XXXXX");`
 
 これを書くと実行時にログが表示される。
 
 +++
 
-プログラムが思い通りに動いているか確認する基本的な方法。
+プログラムが思い通りに動いているか
 
-とりあえず困ったら `Debug.Log();` !!
+確認する基本的な方法。
+
+とりあえず困ったらコレ！
 
 ---
 
 ## 4. 変数
 
+sample : variables
+
 👇
 
-+++?code=Assets/Sample_03_Variables/Variables.cs
++++?code=Assets/variables/Variables.cs
 
 いきなりサンプル
 
@@ -420,27 +424,18 @@ Hierarchy -> Add Component -> Hello World
 
 ## 実行結果
 
-![](gitpitch/img/sample03/sample03-variables.png)
+![](gitpitch/img/variables/variables-variables.png)
 
 +++?code=Assets/Sample_03_Variables/Variables.cs
 
 説明
 
-@[9](textという文字列が入る箱を用意)
-@[10](textという箱に"This is Text."を入れる)
-@[11](textを)
+@[9](textという文字列が入る変数=箱を用意)
+@[10](変数に文字列を入れる)
+@[11](変数の内容をLogに書き出す)
 
 
-@[9](textという名前の変数に文字列を格納)
-@[10](textという変数のあ生身)
-
-いきなりサンプル
-
-
-
-
-
-
+---
 
 ## 組み込み型
 
