@@ -371,11 +371,65 @@ Hierarchy -> Add Component -> Hello World
 
 ---
 
-## 3. 型と変数
+## 3. Debug.Log
+
++++?code=Assets/Sample_02_HelloWorld/HelloWorld.cs
+
+さっきのサンプル
+
++++
+
+`Debug.Log("こんにちは〜〜");`
+
+これを書くと実行時にログが表示される。
+
++++
+
+プログラムが思い通りに動いているか確認する基本的な方法。
+
+とりあえず困ったら `Debug.Log();` !!
+
+---
+
+## 4. 変数
 
 👇
 
++++?code=Assets/Sample_03_Variables/Variables.cs
+
+いきなりサンプル
+
 +++
+
+## 実行結果
+
+![](gitpitch/img/sample03/sample03-variables.png)
+
++++?code=Assets/Sample_03_Variables/Variables.cs
+
+説明
+
+@[9](textという文字列が入る箱を用意)
+@[10](textという箱に"This is Text."を入れる)
+@[11](textを)
+
+
+@[9](textという名前の変数に文字列を格納)
+@[10](textという変数のあ生身)
+
+いきなりサンプル
+
+
+
+
+
+
+
+## 組み込み型
+
+C#は、整数や文字列など、よく使う
+
+C#には、整数や文字列など、よく使うものにはプログラミングでよく使う `型` Unityには、
 
 
 
