@@ -360,6 +360,7 @@ Hierarchy -> Add Component -> Hello World
 
 (振る舞いが)ついた！
 
+
 +++
 
 ![](gitpitch/img/helloworld/helloworld-play.png)
