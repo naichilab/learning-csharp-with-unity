@@ -8,7 +8,7 @@
 
 +++
 
-![naichilab](gitpitch/img/naichi.jpg)
+![naichilab](gitpitch/img/naichi/naichi.jpg)
 
 ないち
 
@@ -96,7 +96,7 @@ Unity興味ある
 
 +++
 
-![tanks](gitpitch/img/tanks.png)
+![tanks](gitpitch/img/tanks/tanks.png)
 
 * 光やカメラを置いて
 * 地面や建物、戦車を置いて
@@ -210,7 +210,7 @@ Unity興味ある
 
 +++
 
-![](gitpitch/img/unity-editor-layout.png)
+![](gitpitch/img/preparation/unity-editor-layout.png)
 
 レイアウトを初期化しておく
 
@@ -228,7 +228,7 @@ sample : create-script
 
 +++
 
-![](gitpitch/img/unity-create-script.png)
+![](gitpitch/img/create-script/unity-create-script.png)
 
 Project -> Create -> C# Script
 
