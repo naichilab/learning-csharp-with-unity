@@ -190,9 +190,27 @@ Unity興味ある
 
 +++
 
-## Unityでの開き方
+## サンプルの開き方
 
-ほげほげ
++++
+
+まずはダウンロード
+
+![](gitpitch/img/preparation/open-in-unity.png)
+
+Clone or Download -> Download ZIP
+
++++
+
+![](gitpitch/img/preparation/select-folder.png)
+
+解凍してUnityで開く
+
++++
+
+![](gitpitch/img/preparation/sample-folders.png)
+
+各フォルダにサンプルファイルが入っています
 
 ---
 
@@ -320,17 +338,9 @@ Hierarchy -> Create -> Create Empty
 
 +++
 
-![](gitpitch/img/helloworld/helloworld-empty-object.png)
+![](gitpitch/img/helloworld/helloworld-sphere.png)
 
-`GameObject` という名前のモノが作られた。
-
-+++
-
-![](gitpitch/img/helloworld/helloworld-rename.png)
-
-分かりにくいのでリネームしましょう。
-
--> `HelloWorld`
+`Sphere` という名前のモノが作られた。
 
 +++
 
