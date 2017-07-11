@@ -334,7 +334,7 @@ Startの中に１行追加する
 
 ![](gitpitch/img/helloworld/helloworld-create-empty.png)
 
-Hierarchy -> Create -> Create Empty
+Hierarchy -> Create -> 3D Object -> Sphere
 
 +++
 
